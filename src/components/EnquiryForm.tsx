@@ -22,7 +22,10 @@ export default function EnquiryForm({ partnership = false }: EnquiryFormProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...values, enquiryType: partnership ? 'Partnership enquiry' : 'General enquiry' }),
       });
-      const result = await response.json() as { message?: string };
+      const contentType = response.headers.get('content-type') || '';
+      const result = contentType.includes('application/json')
+        ? await response.json() as { message?: string }
+        : { message: 'The enquiry service returned an unexpected response. Please try again or call us on 01273 473737.' };
       if (!response.ok) throw new Error(result.message || 'We could not send your enquiry.');
       form.reset();
       setStatus('success');
