@@ -6,6 +6,7 @@ const footerLinks = [
   { label: 'Our Services', to: '/services' },
   { label: 'Contact', to: '/contact-us' },
   { label: 'Terms & Conditions', to: '/terms-and-conditions' },
+  { label: 'Grow With Us', to: '/business-partners' },
 ];
 
 export default function Footer() {

@@ -12,6 +12,7 @@ const PrivacyPage = lazy(() => import('./pages/privacy-policy'));
 const TermsPage = lazy(() => import('./pages/terms-and-conditions'));
 const FaqPage = lazy(() => import('./pages/faq'));
 const BlogPage = lazy(() => import('./pages/blog'));
+const BusinessPartnersPage = lazy(() => import('./pages/business-partners'));
 
 export const routes: RouteObject[] = [
   { path: '/', element: <HomePage /> },
@@ -20,10 +21,11 @@ export const routes: RouteObject[] = [
   { path: '/contact-us', element: <ContactPage /> },
   { path: '/faq', element: <FaqPage /> },
   { path: '/blog', element: <BlogPage /> },
+  { path: '/business-partners', element: <BusinessPartnersPage /> },
   { path: '/privacy-policy', element: <PrivacyPage /> },
   { path: '/terms-and-conditions', element: <TermsPage /> },
   { path: '*', element: <NotFoundPage /> },
 ];
 
-export type Path = '/' | '/about-us' | '/services' | '/contact-us' | '/faq' | '/blog' | '/privacy-policy' | '/terms-and-conditions';
+export type Path = '/' | '/about-us' | '/services' | '/contact-us' | '/faq' | '/blog' | '/business-partners' | '/privacy-policy' | '/terms-and-conditions';
 export type Params = Record<string, string | undefined>;

@@ -1,6 +1,7 @@
 import { blog } from 'virtual:content';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Calendar } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 const siteUrl = 'https://westerncarsadur.co.uk';
 const pageUrl = `${siteUrl}/blog`;
@@ -11,28 +12,71 @@ function formatDate(dateStr: string): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Blog',
-  '@id': `${pageUrl}#webpage`,
-  name: blog.heading,
-  url: pageUrl,
-  description: blog.subheading,
-  isPartOf: { '@id': `${siteUrl}/#website` },
-  publisher: { '@id': `${siteUrl}/#organization` },
-  blogPost: blog.posts.map((post) => ({
-    '@type': 'BlogPosting',
-    '@id': `${pageUrl}/${post.slug}#article`,
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.date,
-    url: `${pageUrl}/${post.slug}`,
-    author: { '@id': `${siteUrl}/#organization` },
-    publisher: { '@id': `${siteUrl}/#organization` },
-  })),
+type ExternalPost = {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content?: string;
+  published_at?: string | null;
+  image_url?: string | null;
+  image_alt?: string | null;
 };
 
 export default function BlogPage() {
+  const [externalPosts, setExternalPosts] = useState<ExternalPost[] | null>(null);
+
+  useEffect(() => {
+    const apiUrl = (import.meta.env.VITE_BLOG_API_URL || 'https://content.westerncars.com').replace(/\/$/, '');
+    const location = import.meta.env.VITE_BLOG_LOCATION || 'adur';
+    fetch(`${apiUrl}/api/posts?location=${encodeURIComponent(location)}&page=1&limit=12&content=full`)
+      .then(async (response) => {
+        if (!response.ok) return null;
+        const payload = await response.json() as { data?: ExternalPost[] };
+        return Array.isArray(payload.data) ? payload.data : null;
+      })
+      .then((posts) => {
+        if (posts && posts.length > 0) setExternalPosts(posts);
+      })
+      .catch(() => {
+        // The curated local content remains visible if the central API is unavailable.
+      });
+  }, []);
+
+  const posts = externalPosts
+    ? externalPosts.map((post, index) => ({
+      id: post.id,
+      slug: post.slug,
+      title: post.title,
+      date: post.published_at || '',
+      excerpt: post.excerpt,
+      body: (post.content || '').split(/\n\s*\n/).filter(Boolean).map((text, index) => ({ id: `${post.id}-${index}`, text })),
+      imageSlot: blog.posts[index % blog.posts.length].imageSlot,
+      imageAlt: post.image_alt || post.title,
+      imageUrl: post.image_url,
+    }))
+    : blog.posts.map((post) => ({ ...post, imageUrl: null }));
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': `${pageUrl}#webpage`,
+    name: blog.heading,
+    url: pageUrl,
+    description: blog.subheading,
+    isPartOf: { '@id': `${siteUrl}/#website` },
+    publisher: { '@id': `${siteUrl}/#organization` },
+    blogPost: posts.map((post) => ({
+      '@type': 'BlogPosting',
+      '@id': `${pageUrl}/${post.slug}#article`,
+      headline: post.title,
+      description: post.excerpt,
+      datePublished: post.date,
+      url: `${pageUrl}/${post.slug}`,
+      author: { '@id': `${siteUrl}/#organization` },
+      publisher: { '@id': `${siteUrl}/#organization` },
+    })),
+  };
+
   return (
     <>
       <Helmet>
@@ -76,7 +120,7 @@ export default function BlogPage() {
         {/* ── Post list ── */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {blog.posts.map((post) => (
+            {posts.map((post) => (
               <article
                 key={post.id}
                 className="bg-white border border-border rounded-lg overflow-hidden flex flex-col"
@@ -85,7 +129,7 @@ export default function BlogPage() {
                 {/* Card image */}
                 <div className="aspect-video overflow-hidden bg-muted">
                   <img
-                    src={`/airo-assets/images/${post.imageSlot}.jpg`}
+                    src={post.imageUrl || `/airo-assets/images/${post.imageSlot}.jpg`}
                     alt={post.imageAlt}
                     className="w-full h-full object-cover"
                     loading="lazy"

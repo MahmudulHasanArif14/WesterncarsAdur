@@ -1,6 +1,7 @@
 import { contact_us } from 'virtual:content';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Phone, MapPin, Clock, Star } from 'lucide-react';
+import EnquiryForm from '../components/EnquiryForm';
 
 const siteUrl = 'https://westerncarsadur.co.uk';
 const pageUrl = `${siteUrl}/contact-us`;
@@ -94,6 +95,12 @@ export default function ContactUsPage() {
               Leave Us a Google Review
             </a>
           </div>
+        </div>
+
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 mt-14">
+          <h2 className="text-2xl font-bold text-primary text-center mb-3">Send us an enquiry</h2>
+          <p className="text-muted-foreground text-center mb-6">Have a question about a journey or our services? We will get back to you.</p>
+          <EnquiryForm />
         </div>
 
         {/* ── Google Map ── */}

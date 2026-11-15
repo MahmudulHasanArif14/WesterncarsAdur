@@ -36,6 +36,7 @@ export const seoRoutes: SeoRoute[] = [
   { path: "/contact-us", changefreq: "monthly", priority: 0.8 },
   { path: "/faq", changefreq: "monthly", priority: 0.8 },
   { path: "/blog", changefreq: "monthly", priority: 0.8 },
+  { path: "/business-partners", changefreq: "monthly", priority: 0.8 },
   { path: "/privacy-policy", changefreq: "monthly", priority: 0.8 },
   { path: "/terms-and-conditions", changefreq: "monthly", priority: 0.8 },
 ];

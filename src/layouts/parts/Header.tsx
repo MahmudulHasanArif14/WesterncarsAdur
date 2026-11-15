@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'About Us', to: '/about-us' },
   { label: 'FAQ', to: '/faq' },
   { label: 'Blog', to: '/blog' },
+  { label: 'Grow With Us', to: '/business-partners' },
   { label: 'Contact Us', to: '/contact-us' },
   { label: 'Terms & Conditions', to: '/terms-and-conditions' },
 ];
