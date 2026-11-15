@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from 'react';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from '@/components/ui/carousel';
-import { Phone } from 'lucide-react';
+import { CarFront, Clock3, MapPin, Phone, ShieldCheck } from 'lucide-react';
 
 const siteUrl = 'https://westerncarsadur.co.uk';
 
@@ -244,25 +244,91 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── Photo strip ── */}
-        <section aria-label="Fleet photos" className="grid grid-cols-2 sm:grid-cols-4">
-          {[
-          { src: '/airo-assets/images/fleet/slide-1.jpg', alt: 'Passengers with luggage at car boot' },
-          { src: '/airo-assets/images/fleet/slide-3.jpg', alt: 'Business travellers at airport' },
-          { src: '/airo-assets/images/hero/slide-4.jpg', alt: 'Western Cars vehicle' },
-          { src: '/airo-assets/images/hero/slide-6.jpg', alt: 'Western Cars taxi service' }].
-          map((img) =>
-          <div key={img.src} className="aspect-video overflow-hidden">
-              <img
-              src={img.src}
-              alt={img.alt}
-              className="w-full h-full object-cover"
-              loading="lazy"
-              width={400}
-              height={225} />
-            
+        {/* ── Local service highlight ── */}
+        <section aria-labelledby="local-service-heading" className="relative overflow-hidden bg-slate-950 py-16 md:py-20">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_hsl(var(--primary)/0.28),_transparent_44%)]" aria-hidden="true" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
+              <div>
+                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground/65" style={{ fontFamily: 'var(--font-heading)' }}>
+                  Your local ride, made simple
+                </p>
+                <h2 id="local-service-heading" className="max-w-xl text-3xl font-bold leading-tight text-white md:text-5xl" style={{ fontFamily: 'var(--font-heading)' }}>
+                  Comfortable journeys across Adur and beyond
+                </h2>
+                <p className="mt-5 max-w-xl text-base leading-relaxed text-white/70 md:text-lg" style={{ fontFamily: 'var(--font-sans)' }}>
+                  From a quick local trip to a carefully timed airport transfer, our professional drivers are ready around the clock.
+                </p>
+                <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                  <a
+                    href="https://westerncars.webbooker.icabbi.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded bg-white px-6 py-3 text-sm font-bold text-slate-950 transition hover:bg-white/90"
+                    style={{ fontFamily: 'var(--font-heading)' }}
+                  >
+                    Book your journey
+                  </a>
+                  <a
+                    href="tel:01273473737"
+                    className="inline-flex items-center justify-center gap-2 rounded border border-white/30 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10"
+                    style={{ fontFamily: 'var(--font-heading)' }}
+                  >
+                    <Phone size={16} />
+                    01273 473737
+                  </a>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3 sm:gap-5">
+                <div className="group relative col-span-2 overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/adurtaxi.jpeg"
+                    alt="Western Cars Adur taxi ready for a local journey"
+                    className="h-56 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    loading="lazy"
+                    width={900}
+                    height={520}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-transparent to-transparent" />
+                  <p className="absolute bottom-5 left-5 text-lg font-bold text-white" style={{ fontFamily: 'var(--font-heading)' }}>
+                    Ready when you are
+                  </p>
+                </div>
+                <div className="group overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/airo-assets/images/hero/slide-4.png"
+                    alt="Western Cars vehicle for airport and long-distance travel"
+                    className="h-40 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-48"
+                    loading="lazy"
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                <div className="flex min-h-40 flex-col justify-center rounded-2xl bg-white/10 p-5 backdrop-blur-sm sm:min-h-48">
+                  <CarFront className="mb-4 text-white" size={27} />
+                  <p className="text-xl font-bold text-white" style={{ fontFamily: 'var(--font-heading)' }}>Local expertise</p>
+                  <p className="mt-2 text-sm leading-relaxed text-white/65" style={{ fontFamily: 'var(--font-sans)' }}>Shoreham, Lancing, Brighton, Worthing and every journey in between.</p>
+                </div>
+              </div>
             </div>
-          )}
+
+            <div className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-3">
+              {[
+                { icon: Clock3, title: '24/7 availability', text: 'Day or night, including bank holidays.' },
+                { icon: ShieldCheck, title: 'Trusted drivers', text: 'Professional, vetted and customer-focused.' },
+                { icon: MapPin, title: 'Airport transfers', text: 'Reliable travel to all major UK airports.' },
+              ].map(({ icon: Icon, title, text }) => (
+                <div key={title} className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/5 px-5 py-4">
+                  <Icon className="mt-0.5 shrink-0 text-white" size={21} />
+                  <div>
+                    <h3 className="font-bold text-white" style={{ fontFamily: 'var(--font-heading)' }}>{title}</h3>
+                    <p className="mt-1 text-sm text-white/60" style={{ fontFamily: 'var(--font-sans)' }}>{text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* ── Download App ── */}

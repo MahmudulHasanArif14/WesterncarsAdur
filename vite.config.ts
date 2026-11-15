@@ -1,4 +1,4 @@
-import { defineConfig, type Plugin, type ViteDevServer } from "vite";
+import { defineConfig, loadEnv, type Plugin, type ViteDevServer } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import { existsSync, statSync } from "node:fs";
@@ -28,6 +28,10 @@ function apiDevPlugin(): Plugin {
     name: "api-dev",
     apply: "serve",
     configureServer(server: ViteDevServer) {
+      // Vite keeps non-VITE variables out of import.meta.env. Load them into
+      // the server process so local API handlers can use the same .env.local
+      // configuration as the production function without exposing secrets.
+      Object.assign(process.env, loadEnv(server.config.mode, process.cwd(), ""));
       server.middlewares.use(async (req, res, next) => {
         if (!req.url?.startsWith("/api")) return next();
         try {
