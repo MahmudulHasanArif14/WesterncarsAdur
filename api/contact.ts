@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
-import { sendContactEmail, type ContactInput } from '../src/lib/contact-email';
+import { sendContactEmail, type ContactInput } from '../src/lib/contact-email.js';
 
 type VercelRequest = IncomingMessage & {
   body?: unknown;
