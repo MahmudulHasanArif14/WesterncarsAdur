@@ -1,0 +1,391 @@
+{
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/uploads-hero-whatsapp-image-2026-07-14-at-17-00-11-1-8cf94c85.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+    ],
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-original-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+    },
+    "mockupUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+    },
+    "landscapeMockupUrlMap": {},
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png": {
+        "sessionId": "88a223d9-6394-4c66-8324-58fb4e7d4e41",
+        "logoId": "5b69b042-61bb-492e-9e66-3b85781991c0",
+        "groupId": "2a1d58a1-427b-47fe-af29-8c64955ff92e"
+      }
+    },
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-mug-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-card-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-tshirt-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-box-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-mug-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-card-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-tshirt-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-mockup-box-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png"
+      }
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:56:37.858Z",
+    "lastUpdated": "2026-09-12T10:08:16.115Z",
+    "surfaceMode": "light",
+    "generatedForSurfaceColor": "#ffffff",
+    "lightSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/88a223d9-6394-4c66-8324-58fb4e7d4e41/horizontal-transparent-5b69b042-61bb-492e-9e66-3b85781991c0/logo-logo.png",
+    "logoGroupId": "2a1d58a1-427b-47fe-af29-8c64955ff92e"
+  },
+  "hero/video-poster": {
+    "requestedSize": {
+      "width": 1920,
+      "height": 700,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/hero-video-poster-fde737a6.jpg",
+    "searchQuery": "person driving car with watch",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1417834832",
+      "https://img1.wsimg.com/isteam/getty/1348027661",
+      "https://img1.wsimg.com/isteam/getty/1313883937",
+      "https://img1.wsimg.com/isteam/getty/2210311496",
+      "https://img1.wsimg.com/isteam/getty/910651296"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:57:26.219Z",
+    "lastUpdated": "2026-10-30T03:48:13.578Z",
+    "alternativeGettyIds": [
+      "1417834832",
+      "1348027661",
+      "1313883937",
+      "2210311496",
+      "910651296"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/hero-video-poster-fde737a6.jpg": "c0d52867f76f4095a2952a17d32fa08e.jpg"
+    },
+    "uploadContentHash": "0bc24582f8e9bb12a61c7b2a3a5bd743a60c1e081ce750e8f3c21d63e7b832cc",
+    "caption": "person driving car with watch",
+    "resizedUrl": "/airo-assets/uploads/variants/f7046158b157e6c0a94f9c8cdd58c143.jpg",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/hero-video-poster-fde737a6.jpg",
+      "sourceBytes": 252110,
+      "requestedSize": {
+        "width": 1920,
+        "height": 700,
+        "fit": "cover"
+      }
+    }
+  },
+  "fleet/slide-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/fleet-slide-1-43dddfe7.jpg",
+    "searchQuery": "couple packing backpack in car trunk",
+    "alternatives": [
+      "/airo-assets/uploads/4f2448a788256fdb4479c862bcc7d8fc.png",
+      "/airo-assets/uploads/b7ec9b6f57e79e914d642a4871fa5176.jpg",
+      "/airo-assets/uploads/b2701bbd6b9fdc012c82c8ea841767a5.jpg",
+      "/airo-assets/uploads/a3a56cfb499baf60e0894f5871ccf8f2.jpg",
+      "/airo-assets/uploads/53c6e019d20f8d5d1fc30731bd82dcbd.jpg",
+      "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:57:26.224Z",
+    "lastUpdated": "2026-09-12T10:03:17.455Z",
+    "uploadSources": {
+      "/airo-assets/uploads/fleet-slide-1-43dddfe7.jpg": "afd8eae90275cd4d32e5d27d083ee0bb.jpg"
+    },
+    "uploadContentHash": "0b7a8a4c47f9e36e0305bbb3f12ee418e7959ee5ffcfbe797f836c2522356522",
+    "caption": "couple packing backpack in car trunk"
+  },
+  "fleet/slide-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/fleet-slide-2-953dfa02.jpg",
+    "searchQuery": "man getting into car with luggage",
+    "alternatives": [
+      "/airo-assets/uploads/b7ec9b6f57e79e914d642a4871fa5176.jpg",
+      "/airo-assets/uploads/b2701bbd6b9fdc012c82c8ea841767a5.jpg",
+      "/airo-assets/uploads/a3a56cfb499baf60e0894f5871ccf8f2.jpg",
+      "/airo-assets/uploads/53c6e019d20f8d5d1fc30731bd82dcbd.jpg",
+      "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg",
+      "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:57:26.226Z",
+    "lastUpdated": "2026-09-12T10:03:17.906Z",
+    "uploadSources": {
+      "/airo-assets/uploads/fleet-slide-2-953dfa02.jpg": "66c0310e22e0eaf420d65e79f280b771.jpg"
+    },
+    "uploadContentHash": "58fdcc02e39498be70a4647e6b951389a621b349af76830c14f191d24442e6ee",
+    "caption": "man getting into car with luggage"
+  },
+  "blog/card-3": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/b2701bbd6b9fdc012c82c8ea841767a5.jpg",
+    "searchQuery": "taxi services guide local transport",
+    "alternatives": [
+      "/airo-assets/uploads/a3a56cfb499baf60e0894f5871ccf8f2.jpg",
+      "/airo-assets/uploads/53c6e019d20f8d5d1fc30731bd82dcbd.jpg",
+      "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg",
+      "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg",
+      "/airo-assets/uploads/fefe681e284dd25868338b0df9292750.jpg"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-12T09:57:26.249Z",
+    "lastUpdated": "2026-09-12T09:57:26.249Z"
+  },
+  "blog/card-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/a3a56cfb499baf60e0894f5871ccf8f2.jpg",
+    "searchQuery": "taxi driver blog post guide",
+    "alternatives": [
+      "/airo-assets/uploads/53c6e019d20f8d5d1fc30731bd82dcbd.jpg",
+      "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg",
+      "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg",
+      "/airo-assets/uploads/fefe681e284dd25868338b0df9292750.jpg",
+      "/airo-assets/uploads/26893ce21a5b92502ca2e3745816c562.webp"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-12T09:57:26.252Z",
+    "lastUpdated": "2026-09-12T09:57:26.252Z"
+  },
+  "fleet/slide-3": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/fleet-slide-3-4a74a880.jpg",
+    "searchQuery": "business travelers walking through modern airport terminal",
+    "alternatives": [
+      "/airo-assets/uploads/53c6e019d20f8d5d1fc30731bd82dcbd.jpg",
+      "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg",
+      "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg",
+      "/airo-assets/uploads/fefe681e284dd25868338b0df9292750.jpg",
+      "/airo-assets/uploads/26893ce21a5b92502ca2e3745816c562.webp",
+      "/airo-assets/uploads/1e6ee536f12ab1c241be8113c5f85614.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:57:26.253Z",
+    "lastUpdated": "2026-09-12T10:03:18.742Z",
+    "uploadSources": {
+      "/airo-assets/uploads/fleet-slide-3-4a74a880.jpg": "ed4bfd7aca96f698f85bb3dde26fcc45.jpg"
+    },
+    "uploadContentHash": "e2c83a89df5d795c8ba63b45731cec8ffdd8ca19b36b4f3426dc1675bce4692b",
+    "caption": "business travelers walking through modern airport terminal"
+  },
+  "blog/card-4": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/496dda13d61db3f50e31c6ec2246b84e.jpg",
+    "searchQuery": "western cars taxi news update",
+    "alternatives": [
+      "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg",
+      "/airo-assets/uploads/fefe681e284dd25868338b0df9292750.jpg",
+      "/airo-assets/uploads/26893ce21a5b92502ca2e3745816c562.webp",
+      "/airo-assets/uploads/1e6ee536f12ab1c241be8113c5f85614.jpg",
+      "/airo-assets/uploads/2a231e560e7f0e8cd31befa5a885bce8.jpg"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-12T09:57:26.255Z",
+    "lastUpdated": "2026-09-12T09:57:26.255Z"
+  },
+  "blog/card-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/23d86023a7feb9c13052502c7dba9254.jpg",
+    "searchQuery": "explore taxi services town travel",
+    "alternatives": [
+      "/airo-assets/uploads/fefe681e284dd25868338b0df9292750.jpg",
+      "/airo-assets/uploads/26893ce21a5b92502ca2e3745816c562.webp",
+      "/airo-assets/uploads/1e6ee536f12ab1c241be8113c5f85614.jpg",
+      "/airo-assets/uploads/2a231e560e7f0e8cd31befa5a885bce8.jpg",
+      "/airo-assets/uploads/c075ab10a281de8a3150d28565557f6d.jpg"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-12T09:57:26.257Z",
+    "lastUpdated": "2026-09-12T09:57:26.257Z"
+  },
+  "features/trust-badge": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/features-trust-badge-1da19a22.svg",
+    "searchQuery": "trustedsite certified secure badge",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T09:57:31.600Z",
+    "lastUpdated": "2026-09-12T09:57:31.600Z",
+    "uploadSources": {
+      "/airo-assets/uploads/features-trust-badge-1da19a22.svg": "d2915d8e6d1b1a695dec64bd15417740.svg"
+    },
+    "uploadContentHash": "1da19a22ec48a2d8249a0511def0efa9999ab567e8c5e1b91a64150f10a3f7e5",
+    "caption": "trustedsite certified secure badge"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-54e59c12.png",
+    "searchQuery": "",
+    "alternatives": [
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/b234c615-d2a0-4ca7-afbf-63f6116104f8/session/f2994b3d-4a42-4f61-b88a-329b97c7489e/favicon-transparent-74f07e27-65d2-4ec5-9277-5fe973a08189/logo-logo.png"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:03:43.834Z",
+    "lastUpdated": "2026-09-26T20:55:20.887Z",
+    "surfaceMode": "light",
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-favicon-54e59c12.png",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-favicon-54e59c12.png": "6iq3fn2vfw_1790456108559_file_EcXj69xVnn.png"
+    },
+    "uploadContentHash": "043286d7f23766a168ea8c532e327efda1adcbf89a556de4904e51878bb1be2a",
+    "naturalOrientation": "horizontal"
+  },
+  "hero/slide-4": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/hero-slide-4-539356fc.jpg",
+    "searchQuery": "two checkmarks blue circular badge",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:06:25.260Z",
+    "lastUpdated": "2026-09-12T10:06:25.260Z",
+    "uploadSources": {
+      "/airo-assets/uploads/hero-slide-4-539356fc.jpg": "7d51618be1161eec8f2f7db931cf4643.jpg"
+    },
+    "uploadContentHash": "23ca2a344f5dbe54cc36e57c197f22210d23cd262a55555fa056541f797ccdee",
+    "caption": "two checkmarks blue circular badge"
+  },
+  "hero/slide-5": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/hero-slide-5-65acf692.jpg",
+    "searchQuery": "woman in car holding phone looking out window",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:06:29.342Z",
+    "lastUpdated": "2026-09-12T10:06:29.342Z",
+    "uploadSources": {
+      "/airo-assets/uploads/hero-slide-5-65acf692.jpg": "f0331a7c0b7f2e8ad0b69513cc02c80b.jpg"
+    },
+    "uploadContentHash": "edb1dd977279660c3b34ea8cbd90badf69529234648d4c8fe8a4cc32abb98372",
+    "caption": "woman in car holding phone looking out window"
+  },
+  "hero/slide-7": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/hero-slide-7-3515fc2b.jpg",
+    "searchQuery": "woman sitting in car backseat using phone",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:06:29.737Z",
+    "lastUpdated": "2026-09-12T10:06:29.737Z",
+    "uploadSources": {
+      "/airo-assets/uploads/hero-slide-7-3515fc2b.jpg": "ff70d90d06944422a5f0cdd2eccbf926.jpg"
+    },
+    "uploadContentHash": "25a97ba75132f5de01c0182c1e9c94fc19609274174e3a02e3858a1733b4752e",
+    "caption": "woman sitting in car backseat using phone"
+  },
+  "hero/slide-6": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/hero-slide-6-0cb46e31.jpg",
+    "searchQuery": "couple with luggage ready for travel",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:06:30.489Z",
+    "lastUpdated": "2026-09-12T10:06:30.489Z",
+    "uploadSources": {
+      "/airo-assets/uploads/hero-slide-6-0cb46e31.jpg": "f48716201f63c81bb372d0de1a388a9e.jpg"
+    },
+    "uploadContentHash": "24cbf0203a5bd1d5414c0eaaf1f8f07c272afce0c81ee1c0405f3e52afcec75a",
+    "caption": "couple with luggage ready for travel"
+  },
+  "uploads/hero-whatsapp-image-2026-07-14-at-17-00-11-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-hero-whatsapp-image-2026-07-14-at-17-00-11-1-8cf94c85.jpg",
+    "searchQuery": "neon checkmarks glowing blue hexagon",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-12T10:08:09.058Z",
+    "lastUpdated": "2026-09-12T10:08:09.058Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-hero-whatsapp-image-2026-07-14-at-17-00-11-1-8cf94c85.jpg": "6iq3fn2vfw_1789207688788_file_s1bELlLBqC.jpeg"
+    },
+    "uploadContentHash": "82e37edb2e17d16c397d084870f67a15dff86bbc514eaece8f0f9221e1bd500a",
+    "caption": "neon checkmarks glowing blue hexagon"
+  },
+  "pages/home/western-cars-vehicle": {
+    "mediaType": "image",
+    "currentUrl": "https://6iq3fn2vfw.agent.c35.airoapp.ai/files/uploads/6iq3fn2vfw/6iq3fn2vfw_1789234850417_file_-HR8kjA99L.jpeg?sig=tL-Xu3TAlepSWpmKn0b1y2tcHMQxvxfIkrUueScHoEk&exp=1789324624",
+    "searchQuery": "white car parked at urban station lot",
+    "alternatives": [
+      "https://6iq3fn2vfw.agent.c35.airoapp.ai/files/uploads/6iq3fn2vfw/6iq3fn2vfw_1789234850417_file_-HR8kjA99L.jpeg?sig=tL-Xu3TAlepSWpmKn0b1y2tcHMQxvxfIkrUueScHoEk&exp=1789324624"
+    ],
+    "userModified": false,
+    "sourceRef": "src/pages/index.tsx:241",
+    "createdAt": "2026-09-12T18:44:09.122Z",
+    "lastUpdated": "2026-09-12T18:44:09.122Z",
+    "caption": "white car parked at urban station lot"
+  },
+  "logo/primary": {
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-primary-a22dd0b9.png",
+    "surfaceMode": "light",
+    "currentUrl": "/airo-assets/uploads/logo-primary-a22dd0b9.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-primary-a22dd0b9.png": "6iq3fn2vfw_1790456108559_file_EcXj69xVnn.png"
+    },
+    "uploadContentHash": "043286d7f23766a168ea8c532e327efda1adcbf89a556de4904e51878bb1be2a",
+    "createdAt": "2026-09-26T20:55:20.889Z",
+    "lastUpdated": "2026-09-26T20:55:20.889Z",
+    "naturalOrientation": "square"
+  },
+  "logo/vertical": {
+    "lightSurfaceUrl": "/airo-assets/uploads/logo-vertical-00ff11db.png",
+    "surfaceMode": "light",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-00ff11db.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-vertical-00ff11db.png": "6iq3fn2vfw_1790456108559_file_EcXj69xVnn.png"
+    },
+    "uploadContentHash": "043286d7f23766a168ea8c532e327efda1adcbf89a556de4904e51878bb1be2a",
+    "createdAt": "2026-09-26T20:55:20.889Z",
+    "lastUpdated": "2026-09-26T20:55:20.889Z",
+    "naturalOrientation": "vertical"
+  }
+}

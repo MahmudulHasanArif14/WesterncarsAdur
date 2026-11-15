@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "title": "Local Taxi",
+      "description": "Reliable local taxi rides across Shoreham, Lancing, Brighton, Worthing and the wider Adur area.",
+      "id": "YMemGugP5G3TcM1TiCMfK"
+    },
+    {
+      "title": "Airport Transfers",
+      "description": "Stress-free airport transfers to and from Gatwick, Heathrow, Stansted and other major airports.",
+      "id": "wSj4QFYIdbXPKVosaK8GT"
+    },
+    {
+      "title": "Professional Drivers",
+      "description": "Courteous, experienced and fully licensed drivers committed to your safety and comfort.",
+      "id": "kLMat96eR0xDlkUOonvv4"
+    },
+    {
+      "title": "Easy Payment",
+      "description": "Pay by cash, credit card or mobile payment — whatever suits you best.",
+      "id": "UKFkKFRt0-WSMmqg_dK2h"
+    },
+    {
+      "title": "Customisable Rides",
+      "description": "Tailored ride options to meet your specific requirements, from executive travel to group bookings.",
+      "id": "D_H_JsP4KmcIK2Qe08JAm"
+    },
+    {
+      "title": "24/7 Support",
+      "description": "Our customer support team is available around the clock to assist you.",
+      "id": "poowA0_l6Za3fXdp1zKR5"
+    }
+  ]
+}

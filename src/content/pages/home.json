@@ -1,0 +1,180 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "id": "s1",
+        "heading": "Western Cars Adur",
+        "subheading": "Adur Taxi Hire",
+        "body": "Book a cab on the go or use our online service. Compare the prices, choose the best and book your cab. 24/7 customer support.",
+        "phone": "01273473737"
+      },
+      {
+        "id": "s2",
+        "heading": "Western Cars Adur",
+        "subheading": "Adur Taxi Hire",
+        "body": "Book a cab on the go or use our online service. Compare the prices, choose the best and book your cab. 24/7 customer support.",
+        "phone": "01273473737"
+      },
+      {
+        "id": "s3",
+        "heading": "Western Cars Adur",
+        "subheading": "Adur Taxi Hire",
+        "body": "Book a cab on the go or use our online service. Compare the prices, choose the best and book your cab. 24/7 customer support.",
+        "phone": "01273473737"
+      }
+    ]
+  },
+  "welcome": {
+    "heading": "Welcome to Western Cars Adur",
+    "subheading": "Your Local Taxi Service in Shoreham-by-Sea & the Adur District",
+    "body": [
+      {
+        "id": "p1",
+        "text": "At Western Cars Adur, we offer trusted taxi services across Shoreham-by-Sea, Lancing, Southwick, Portslade, Hove, Brighton, Worthing, Steyning, Henfield, Burgess Hill and the wider Adur district — at affordable, transparent rates. Our professional drivers make sure you reach your destination safely, comfortably, and on time, whether you need a local trip or a long-distance transfer."
+      },
+      {
+        "id": "p2",
+        "text": "We are a licensed Private Hire transport provider covering East and West Sussex, all major train stations, and airports across the UK. From a taxi in Shoreham to a Gatwick airport transfer, a minicab in Lancing to a Heathrow run from Worthing — Western Cars Adur has you covered."
+      },
+      {
+        "id": "p3",
+        "text": "Western Cars provides transport for corporate and private customers to and from all London airports — Heathrow, Gatwick, London City, Stansted, and Luton. We can provide the right vehicle for your needs and bring you back safely."
+      },
+      {
+        "id": "p4",
+        "text": "Our fleet includes executive vehicles, saloons, estates, six, seven and eight-seater carriers, as well as vehicles with wheelchair access. All our drivers are fully vetted, friendly, reliable and committed to a safe, smooth journey wherever your destination."
+      },
+      {
+        "id": "p5",
+        "text": "We understand that some customers feel more comfortable with a familiar face and can arrange for a regular driver to be allocated to you, subject to availability. Western Cars operates a 24-hour taxi service in Adur — call us anytime, day or night."
+      },
+      {
+        "id": "p6",
+        "text": "We do not charge any extra for out-of-hours services and are available at short notice. Our prices are based on mileage and vehicle type only. We offer set fixed rates for popular destinations including Gatwick, Heathrow and Stansted airports."
+      },
+      {
+        "id": "p7",
+        "text": "Anyone can book journeys online, via our app, by text or by phone. We accept all major credit, debit and Visa cards. We have developed excellent working relationships with local organisations that benefit from using our account services."
+      },
+      {
+        "id": "p8",
+        "text": "All our vehicles are fitted with PDAs so we can keep you up to date with live progress reports. We are experienced in providing services for hen parties, wedding transport, school runs, corporate travel and more."
+      },
+      {
+        "id": "p9",
+        "text": "As a customer-focused company, we want to ensure all our customers are fully satisfied with the service they receive. Book with us and give us a chance to show you why Western Cars Adur has grown from strength to strength."
+      }
+    ]
+  },
+  "app": {
+    "heading": "Download Our Smartphone App",
+    "body": "You can always book your cab via our site, email or phone number but do you know we have also launched Western Cars free iPhone and Android app? We are pleased to announce that we have launched our mobile app for the Android and iOS Platform. You book through these apps on your Android or iPhone smartphone. Select from the below app stores to download. You can also go directly to our website through your mobile web browser to book through our user friendly booking engine."
+  },
+  "whyChooseUs": {
+    "heading": "Why Choose Us?",
+    "body": "Western Cars Adur are fully licensed Minicab Service. Our prices are very competitive as we are the providers of one of the cheapest rates on the market.",
+    "points": [
+      {
+        "id": "w1",
+        "text": "24/7 Taxi Service — available every day including bank holidays, with no extra charge for out-of-hours journeys"
+      },
+      {
+        "id": "w2",
+        "text": "Fixed fares for airport transfers to Gatwick, Heathrow, Stansted, Luton and London City — no hidden charges"
+      },
+      {
+        "id": "w3",
+        "text": "Fully vetted, licensed professional drivers with local knowledge of Shoreham, Lancing, Worthing, Brighton and West Sussex"
+      },
+      {
+        "id": "w4",
+        "text": "Fleet of saloons, estates, executive vehicles and 6–8 seaters — including wheelchair-accessible vehicles"
+      },
+      {
+        "id": "w5",
+        "text": "Easy booking by phone, online or via our free iOS and Android app"
+      }
+    ]
+  },
+  "areas": {
+    "heading": "Areas We Cover",
+    "list": [
+      {
+        "id": "a1",
+        "name": "Shoreham-by-Sea"
+      },
+      {
+        "id": "a2",
+        "name": "Lancing"
+      },
+      {
+        "id": "a3",
+        "name": "Southwick"
+      },
+      {
+        "id": "a4",
+        "name": "Portslade"
+      },
+      {
+        "id": "a5",
+        "name": "Hove"
+      },
+      {
+        "id": "a6",
+        "name": "Brighton"
+      },
+      {
+        "id": "a7",
+        "name": "Worthing"
+      },
+      {
+        "id": "a8",
+        "name": "Goring-by-Sea"
+      },
+      {
+        "id": "a9",
+        "name": "Littlehampton"
+      },
+      {
+        "id": "a10",
+        "name": "Angmering"
+      },
+      {
+        "id": "a11",
+        "name": "Arundel"
+      },
+      {
+        "id": "a12",
+        "name": "Steyning"
+      },
+      {
+        "id": "a13",
+        "name": "Henfield"
+      },
+      {
+        "id": "a14",
+        "name": "Burgess Hill"
+      },
+      {
+        "id": "a15",
+        "name": "Gatwick Airport"
+      },
+      {
+        "id": "a16",
+        "name": "Heathrow Airport"
+      },
+      {
+        "id": "a17",
+        "name": "Stansted Airport"
+      },
+      {
+        "id": "a18",
+        "name": "Luton Airport"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About Western Cars Adur",
+    "body": "Western Cars Adur was formed to provide the best private hire taxi service in the Adur area, covering Shoreham-by-Sea, Lancing, Brighton, Worthing and all major UK airports including Gatwick, Heathrow and Stansted. We are proud to be the trusted local taxi choice for residents and businesses across West Sussex."
+  }
+}
