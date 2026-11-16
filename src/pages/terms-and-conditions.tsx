@@ -2,15 +2,40 @@ import { terms } from 'virtual:content';
 import { Helmet } from '@dr.pogodin/react-helmet';
 
 const siteUrl = 'https://westerncarsadur.co.uk';
+const pageUrl = `${siteUrl}/terms-and-conditions`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${pageUrl}#webpage`,
+  name: 'Terms and Conditions | Western Cars Adur',
+  url: pageUrl,
+  description: 'Clear booking, fare, cancellation and passenger terms for Western Cars Adur taxi and airport transfer services across Shoreham-by-Sea, Adur and West Sussex.',
+  isPartOf: { '@id': `${siteUrl}/#website` },
+  about: { '@id': `${siteUrl}/#organization` },
+  inLanguage: 'en-GB'
+};
 
 export default function TermsPage() {
   return (
     <>
       <Helmet>
-        <title>Terms &amp; Conditions | Western Cars Adur</title>
-        <meta name="description" content="Terms and conditions for Western Cars Adur private hire taxi services." />
-        <link rel="canonical" href={`${siteUrl}/terms-and-conditions`} />
-        <meta name="robots" content="noindex" />
+        <title>Taxi Terms &amp; Conditions in Adur | Western Cars Adur</title>
+        <meta
+          name="description"
+          content="Read Western Cars Adur taxi terms: bookings, fares, waiting time, airport transfers, cancellations, luggage and service areas across Shoreham-by-Sea and Adur."
+        />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:title" content="Taxi Terms &amp; Conditions in Adur | Western Cars Adur" />
+        <meta property="og:description" content="Booking, fare, cancellation and passenger terms for Western Cars Adur taxi and airport transfer services across Shoreham-by-Sea, Adur and West Sussex." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={`${siteUrl}/og-image.jpg`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Taxi Terms &amp; Conditions in Adur | Western Cars Adur" />
+        <meta name="twitter:description" content="Booking, fare, cancellation and passenger terms for Western Cars Adur taxi and airport transfer services." />
+        <meta name="twitter:image" content={`${siteUrl}/og-image.jpg`} />
+        <script type="application/ld+json">{JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>
       </Helmet>
 
       <main className="py-16">

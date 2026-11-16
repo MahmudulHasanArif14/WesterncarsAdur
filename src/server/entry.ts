@@ -7,6 +7,7 @@ import { readFileSync } from "node:fs";
 // <api-imports>
 import health__get from "./api/health/GET";
 import contact__post from "./api/contact/POST";
+import revalidate_blog__post from "./api/revalidate-blog/POST";
 // </api-imports>
 import { seoRoutes } from "../lib/seo-routes";
 import {
@@ -249,13 +250,17 @@ const app = express();
 // the sitemap origin in robots.txt.
 app.set("trust proxy", true);
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
 // <api-registrations>
 app.get("/api/health", health__get);
-app.post("/api/contact", contact__post);
+app.post("/api/revalidate-blog", express.raw({ type: "application/json", limit: "256kb" }), revalidate_blog__post);
+app.get("/api/revalidate-blog", (_req, res) => {
+	res.status(405).set("Allow", "POST").json({ ok: false, code: "method_not_allowed" });
+});
 // </api-registrations>
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.post("/api/contact", contact__post);
 
 // Error middleware must be registered AFTER the routes it protects; Express
 // only passes errors to middleware defined later in the stack.
